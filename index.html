@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriSmart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="logo">🌱 AgriSmart</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#recommend">Get Recommendations</a>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#technology">Technology</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <h1>AI-Powered <span>Crop Recommendations</span></h1>
+    <p>Maximize your farm profits with intelligent crop suggestions based on soil data, weather patterns, and market trends</p>
+    <div class="btn-group">
+      <a href="#recommend" class="btn-primary">Get Smart Recommendations</a>
+      <a href="#features" class="btn-secondary">Learn more →</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features">
+    <h2>Revolutionary Farming Solutions</h2>
+    <p>Empower your agricultural decisions with cutting-edge AI technology designed for modern farming</p>
+    <div class="feature-grid">
+      <div class="card">🌱 <h3>Smart Crop Selection</h3><p>AI analyzes soil composition, weather patterns, and market data.</p></div>
+      <div class="card">☁️ <h3>Weather Forecasting</h3><p>Advanced weather predictions for planting and harvesting.</p></div>
+      <div class="card">💰 <h3>Market Price Alerts</h3><p>Real-time prices and trend analysis for maximum profit.</p></div>
+      <div class="card">🔬 <h3>Disease Detection</h3><p>AI identifies crop diseases early and provides solutions.</p></div>
+    </div>
+  </section>
+
+  <!-- Form -->
+  <section id="recommend">
+    <h2>Get Your Crop Recommendations</h2>
+    <p>Provide your farming details to receive personalized AI-powered crop suggestions</p>
+    <form id="recommendForm">
+      <input type="text" placeholder="Location" required>
+      <input type="number" placeholder="Farm Size (acres)" required>
+      <select required>
+        <option value="">Select soil type</option>
+        <option>Clay</option><option>Loamy</option><option>Sandy</option><option>Silt</option>
+      </select>
+      <select required>
+        <option value="">Select season</option>
+        <option>Kharif</option><option>Rabi</option><option>Zaid</option>
+      </select>
+      <select required>
+        <option value="">Select budget range</option>
+        <option>Low</option><option>Medium</option><option>High</option>
+      </select>
+      <button type="submit">Get AI Recommendations</button>
+    </form>
+  </section>
+
+  <!-- Dashboard -->
+  <section id="dashboard" class="dashboard">
+    <h2>Farmer Dashboard</h2>
+    <p>Stay informed with real-time data, market trends, and personalized insights</p>
+    <div class="dashboard-grid">
+      <div class="card"><h3>☁️ Weather Forecast</h3><p>Today: 28°C Sunny</p><p>Tomorrow: 26°C Cloudy</p><p>Day 3: 24°C Rain</p></div>
+      <div class="card"><h3>💰 Market Prices</h3><p>Wheat: ₹2150 (+2.5%)</p><p>Rice: ₹1980 (-1.2%)</p><p>Cotton: ₹6800 (+4.1%)</p></div>
+      <div class="card"><h3>🔔 Alerts</h3><p>⚠️ Disease detected nearby</p><p>💡 Fertilizer prices dropped 8%</p><p>🌧️ Heavy rainfall warning</p></div>
+      <div class="card"><h3>🌱 Soil Health</h3><p>pH: 7.2 (Optimal)</p><p>Nitrogen: Medium</p><p>Phosphorus: High</p></div>
+      <div class="card"><h3>📈 Yield Predictions</h3><p>+15% above average</p><p>Expected Revenue: ₹4,85,000</p><p>Profit Margin: 32%</p></div>
+    </div>
+  </section>
+
+  <!-- Technology -->
+  <section id="technology">
+    <h2>Powered by Advanced Technology</h2>
+    <p>Our platform leverages cutting-edge AI and modern technologies to deliver precise agricultural insights</p>
+    <div class="tech-grid">
+      <div>🤖 Machine Learning<br><small>Advanced AI algorithms</small></div>
+      <div>🛰️ Satellite Data<br><small>Real-time monitoring</small></div>
+      <div>📊 Big Data Analytics<br><small>Massive data processing</small></div>
+      <div>☁️ Cloud Computing<br><small>Scalable infrastructure</small></div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
